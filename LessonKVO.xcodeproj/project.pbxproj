@@ -13,6 +13,7 @@
 		D9C169B51E12186300E1C001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C169B31E12186300E1C001 /* Main.storyboard */; };
 		D9C169B71E12186300E1C001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C169B61E12186300E1C001 /* Assets.xcassets */; };
 		D9C169BA1E12186300E1C001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C169B81E12186300E1C001 /* LaunchScreen.storyboard */; };
+		D9C169C71E121A1600E1C001 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C169C61E121A1600E1C001 /* NSObject+DLIntrospection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9C169B61E12186300E1C001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C169B91E12186300E1C001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C169BB1E12186300E1C001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C169C51E121A1600E1C001 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		D9C169C61E121A1600E1C001 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				D9C169AE1E12186300E1C001 /* AppDelegate.m */,
 				D9C169B01E12186300E1C001 /* ViewController.h */,
 				D9C169B11E12186300E1C001 /* ViewController.m */,
+				D9C169C41E121A1600E1C001 /* DLIntrospection */,
 				D9C169B31E12186300E1C001 /* Main.storyboard */,
 				D9C169B61E12186300E1C001 /* Assets.xcassets */,
 				D9C169B81E12186300E1C001 /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				D9C169AB1E12186300E1C001 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C169C41E121A1600E1C001 /* DLIntrospection */ = {
+			isa = PBXGroup;
+			children = (
+				D9C169C51E121A1600E1C001 /* NSObject+DLIntrospection.h */,
+				D9C169C61E121A1600E1C001 /* NSObject+DLIntrospection.m */,
+			);
+			path = DLIntrospection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C169B21E12186300E1C001 /* ViewController.m in Sources */,
+				D9C169C71E121A1600E1C001 /* NSObject+DLIntrospection.m in Sources */,
 				D9C169AF1E12186300E1C001 /* AppDelegate.m in Sources */,
 				D9C169AC1E12186300E1C001 /* main.m in Sources */,
 			);
